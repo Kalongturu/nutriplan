@@ -18,9 +18,9 @@ services:
     restart: unless-stopped
     environment:
       MYSQL_ROOT_PASSWORD: root
-      MYSQL_DATABASE: laravel
-      MYSQL_USER: laravel
-      MYSQL_PASSWORD: laravel
+      MYSQL_DATABASE: nutriplan-db
+      MYSQL_USER: nutriplan
+      MYSQL_PASSWORD: Dmystzz27[06]
     ports:
       - "3306:3306"
     volumes:
