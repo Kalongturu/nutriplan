@@ -1,0 +1,109 @@
+@font-face {
+  font-family: "SF Pro Display";
+  src: url("fonts/SFProDisplay-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  font-family: "SF Pro Display", sans-serif;
+}
+.navbar {
+  height: 5rem;
+  align-items: center;
+  backdrop-filter: blur(24px);
+}
+.navbar-brand {
+  margin-left: 8vw;
+}
+.row {
+  padding-top: 5rem;
+}
+.nutri {
+  color: #95cd41;
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+.plan {
+  color: #ea5c2b;
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+.ijo {
+  background-color: #95cd41;
+  transition: all 0.3s ease;
+}
+.ijo:hover {
+  background-color: #6e9c29;
+}
+.login {
+  margin-right: 2.5vw;
+}
+.oren {
+  background-color: #ea5c2b;
+  transition: all 0.3s ease;
+}
+.oren:hover {
+  background-color: #cd4c22;
+}
+.nav-link {
+  font-size: 0.875rem;
+}
+h1 {
+  color: #ffcc00;
+}
+h2 {
+  color: #ffcc00;
+}
+.parag-homepage {
+  color: #ea5c2b;
+}
+.lat-blkg {
+  background: linear-gradient(to top right, #ffd8df, #f0ffdf);
+  min-height: 100vh;
+}
+.brokoli {
+  z-index: 2;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: rotate(-12.98deg);
+}
+.elip1 {
+  z-index: 1;
+  top: 8%;
+  left: 10%;
+  position: absolute;
+}
+.plate {
+  top: 0;
+}
+.wortel {
+  position: absolute;
+  z-index: 2;
+  bottom: 3%;
+  right: 0;
+}
+.elip2 {
+  position: absolute;
+  z-index: 1;
+  bottom: 0;
+  right: 24%;
+}
+.serat {
+  top: 0;
+}
+.wadah {
+  height: 7.5rem;
+}
+.jagung {
+  z-index: 2;
+  position: absolute;
+  left: 40%;
+  top: 0;
+}
+.elip3 {
+  position: absolute;
+  z-index: 1;
+  left: 40%;
+  top: 15%;
+}
