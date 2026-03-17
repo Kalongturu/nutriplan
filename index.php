@@ -69,25 +69,25 @@
       <div class="container col-md-6">
         <div class="row text-center">
           <div class="col-md-2 position-relative">
-            <img src="img/brokoli.png" alt="" width="65px" class="img-fluid brokoli">
-            <img src="img/Ellipse 3.png" alt="" width="50px" class="img-fluid elip1">
+            <img src="img/brokoli.png" alt="" width="65px" class="brokoli">
+            <img src="img/Ellipse 3.png" alt="" width="50px" class="elip1">
           </div>
           <div class="col-md-8 position-relative">
             <img src="img/tanaman.png" alt="Ini plate" width="300px" class="img-fluid plate">
           </div>
           <div class="col-md-2 position-relative">
-            <img src="img/wortel.png" alt="" width="60px" class="img-fluid wortel">
-            <img src="img/Ellipse 1.png" alt="" width="50px" class="img-fluid elip2">
+            <img src="img/wortel.png" alt="" width="60px" class="wortel">
+            <img src="img/Ellipse 1.png" alt="" width="50px" class="elip2">
           </div>
           <div class="col-md-6 position-relative">
-            <img src="img/serat.png" alt="" width="200px" class="serat img-fluid">
+            <img src="img/serat.png" alt="" width="200px" class="serat">
           </div>
           <div class="col-md-6 position-relative">
-            <img src="img/protein.png" alt="" width="300px" class="protein img-fluid">
+            <img src="img/protein.png" alt="" width="300px" class="protein">
           </div>
           <div class="col-md-12 position-relative wadah">
-            <img src="img/jagung.png" alt="" width="80px" class="jagung img-fluid">
-            <img src="img/Ellipse 2.png" alt="" width="80px" class="img-fluid elip3">
+            <img src="img/jagung.png" alt="" width="80px" class="jagung">
+            <img src="img/Ellipse 2.png" alt="" width="80px" class=" elip3">
           </div>
         </div>
       </div>
