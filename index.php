@@ -29,26 +29,26 @@
         <div class="d-flex justify-content-center align-items-center flex-grow-1">
           <ul class="navbar-nav mb-2 mb-lg-0">
             <li class="nav-item tex">
-              <a class="w-100 text-center nav-link ijo rounded-pill text-white fw-bold mx-2" aria-current="page" href="#">Home</a>
+              <a class="btn w-100 text-center nav-link ijo rounded-pill text-white fw-bold mx-2" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="w-100 text-center nav-link oren rounded-pill text-white fw-bold mx-2" href="#">How It Works</a>
+              <a class="btn w-100 text-center nav-link oren rounded-pill text-white fw-bold mx-2" href="#">How It Works</a>
             </li>
             <li class="nav-item">
-              <a class="w-100 text-center nav-link ijo rounded-pill text-white fw-bold mx-2" href="#">Recipes</a>
+              <a class="btn w-100 text-center nav-link ijo rounded-pill text-white fw-bold mx-2" href="#">Recipes</a>
             </li>
             <li class="nav-item">
-              <a class="w-100 text-center nav-link oren rounded-pill text-white fw-bold mx-2" href="#">Callculator</a>
+              <a class="btn w-100 text-center nav-link oren rounded-pill text-white fw-bold mx-2" href="#">Callculator</a>
             </li>
             <li class="nav-item">
-              <a class="w-100 text-center nav-link ijo rounded-pill text-white fw-bold mx-2" href="#">Planner</a>
+              <a class="btn w-100 text-center nav-link ijo rounded-pill text-white fw-bold mx-2" href="#">Planner</a>
             </li>
           </ul>
 
         </div>
         <ul class="navbar-nav mb-2 ms-auto mb-lg-0">
           <li class="nav-item">
-            <a class="text-center w-100 nav-link oren rounded-pill text-white fw-bold login" href="#">Log In/Sign Up</a>
+            <a class="btn text-center w-100 nav-link oren rounded-pill text-white fw-bold login" href="#">Log In/Sign Up</a>
           </li>
         </ul>
 
