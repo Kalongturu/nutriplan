@@ -14,6 +14,14 @@ body {
   z-index: 1000;
   top: 0;
 }
+@media (max-width="992px") {
+  .navbar-collapse {
+    background-color: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+  }
+}
+
 .navbar-brand {
   margin-left: 8vw;
 }
@@ -52,7 +60,6 @@ body {
 .oren {
   background-color: #ea5c2b;
   transition: all 0.3s ease;
-  
 }
 .oren:hover {
   background-color: #cd4c22;
