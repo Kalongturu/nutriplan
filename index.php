@@ -59,7 +59,7 @@
     <!-- Isi konten -->
     <div class="container-fluid min-vh-100 lat-blkg px-4 konten" width="100%">
       <div class="row min-vh-100 align-items-center ps-5">
-        <div class="col-md-6 flex-column">
+        <div class="col-lg-6 col-md-12 flex-column">
           <h1 class="fw-bold col-6 text-wrap">Cook Smart, Waste Less</h1>
           <h2 class="fw-bold">Smart Meal Planning for a Healthier Life</h2>
           <p class="parag-homepage fw-bold">
@@ -67,32 +67,32 @@
             NutriPlan helps you create personalized meal plans using BMI analysis,
             nutrition data, and smart recommendations.
           </p>
-          <div class="button d-flex">
-            <a href="#" class="align-items-center btn ijo text-white rounded-pill fw-bold me-4" width="33%">Calculate Your Plan</a>
-            <a href="#" class="align-items-center btn oren text-white rounded-pill fw-bold ms-4" width="33%">Explore Recipes</a>
+          <div class="button col-12 d-flex">
+            <a href="#" class="align-items-center btn ijo text-white rounded-pill fw-bold me-3" width="33%">Calculate Your Plan</a>
+            <a href="#" class="align-items-center btn oren text-white rounded-pill fw-bold ms-3" width="33%">Explore Recipes</a>
           </div>
         </div>
         <!-- Elemen gambar -->
-        <div class="container col-md-6">
+        <div class="container col-6">
           <div class="row text-center">
-            <div class="col-md-2 position-relative border">
+            <div class="col-2 d-none d-md-block position-relative">
               <img src="img/brokoli.png" alt="" width="65px" class="img-fluid brokoli">
               <img src="img/Ellipse 3.png" alt="" width="50px" class="elip1 img-fluid">
             </div>
-            <div class="col-md-8 position-relative border">
+            <div class="col-8 d-none d-md-block position-relative">
               <img src="img/tanaman.png" alt="Ini plate" width="350px" class="img-fluid plate">
             </div>
-            <div class="col-md-2 position-relative border">
+            <div class="col-2 d-none d-md-block position-relative">
               <img src="img/wortel.png" alt="" width="60px" class="wortel img-fluid">
               <img src="img/Ellipse 1.png" alt="" width="50px" class="elip2 img-fluid">
             </div>
-            <div class="col-md-6 position-relative border">
+            <div class="col-6 d-none d-md-block position-relative">
               <img src="img/serat.png" alt="" width="250px" class="img-fluid">
             </div>
-            <div class="col-md-6 position-relative border">
+            <div class="col-6 d-none d-md-block position-relative ">
               <img src="img/protein.png" alt="" width="300px" class="img-fluid">
             </div>
-            <div class="col-md-12 position-relative wadah border">
+            <div class="col-12 d-none d-md-block position-relative wadah" width="80px">
               <img src="img/jagung.png" alt="" width="80px" class="img-fluid jagung">
               <img src="img/Ellipse 2.png" alt="" width="80px" class="img-fluid elip3">
             </div>
