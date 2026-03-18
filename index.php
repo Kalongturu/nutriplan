@@ -55,7 +55,7 @@
       </div>
     </div>
   </nav>
-  <main> @yield(section:"content")
+  <main>
     <!-- Isi konten -->
     <div class="container-fluid min-vh-100 lat-blkg px-4 konten" width="100%">
       <div class="row min-vh-100 align-items-center ps-5">
