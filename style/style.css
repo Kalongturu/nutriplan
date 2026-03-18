@@ -16,7 +16,7 @@ body {
   margin-left: 8vw;
 }
 .konten {
-  animation: fadeIn 0.3s ease-in;
+  animation: fadeIn 0.4s ease-in;
 }
 .row {
   padding-top: 5rem;
@@ -63,7 +63,6 @@ h2 {
 }
 .lat-blkg {
   background: linear-gradient(to top right, #ffd8df, #f0ffdf);
-  min-height: 100vh;
 }
 .brokoli {
   z-index: 2;

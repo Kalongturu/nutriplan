@@ -21,37 +21,39 @@
         </a>
       </div>
 
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler me-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="#navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse col-8 justify-content-center" id="navbarSupportedContent">
-        <ul class="navbar-nav mb-2 mb-lg-0">
-          <li class="nav-item tex">
-            <a class="nav-link ijo rounded-pill text-white fw-bold mx-2" aria-current="page" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link oren rounded-pill text-white fw-bold mx-2" href="#">How It Works</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link ijo rounded-pill text-white fw-bold mx-2" href="#">Recipes</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link oren rounded-pill text-white fw-bold mx-2" href="#">Callculator</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link ijo rounded-pill text-white fw-bold mx-2" href="#">Planner</a>
-          </li>
-        </ul>
-      </div>
-      <div class="collapse navbar-collapse col-2" id="navbarSupportedContent">
-        <ul class="navbar-nav mb-2 mb-lg-0">
+      <div class="collapse navbar-collapse col-10" id="navbarSupportedContent">
+        <div class="d-flex justify-content-center flex-grow-1">
+          <ul class="navbar-nav mb-2 mb-lg-0">
+            <li class="nav-item tex">
+              <a class="nav-link ijo rounded-pill text-white fw-bold mx-2" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link oren rounded-pill text-white fw-bold mx-2" href="#">How It Works</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link ijo rounded-pill text-white fw-bold mx-2" href="#">Recipes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link oren rounded-pill text-white fw-bold mx-2" href="#">Callculator</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link ijo rounded-pill text-white fw-bold mx-2" href="#">Planner</a>
+            </li>
+          </ul>
+
+        </div>
+        <ul class="navbar-nav mb-2 ms-auto mb-lg-0">
           <li class="nav-item">
             <a class="nav-link oren rounded-pill text-white fw-bold login" href="#">Log In/Sign Up</a>
           </li>
         </ul>
       </div>
+
   </nav>
-  <main>
+  <main> @yield(section:"content")
     <div class="container-fluid min-vh-100 lat-blkg px-4 konten" width="100%">
       <div class="row min-vh-100 align-items-center ps-5">
         <div class="col-md-6 flex-column">
