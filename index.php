@@ -27,19 +27,19 @@
       <div class="collapse navbar-collapse col-8 justify-content-center" id="navbarSupportedContent">
         <ul class="navbar-nav mb-2 mb-lg-0">
           <li class="nav-item tex">
-            <a class="nav-link ijo rounded-pill text-white fw-bold mx-1" aria-current="page" href="#">Home</a>
+            <a class="nav-link ijo rounded-pill text-white fw-bold mx-2" aria-current="page" href="#">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link oren rounded-pill text-white fw-bold mx-1" href="#">How It Works</a>
+            <a class="nav-link oren rounded-pill text-white fw-bold mx-2" href="#">How It Works</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link ijo rounded-pill text-white fw-bold mx-1" href="#">Recipes</a>
+            <a class="nav-link ijo rounded-pill text-white fw-bold mx-2" href="#">Recipes</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link oren rounded-pill text-white fw-bold mx-1" href="#">Callculator</a>
+            <a class="nav-link oren rounded-pill text-white fw-bold mx-2" href="#">Callculator</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link ijo rounded-pill text-white fw-bold mx-1" href="#">Planner</a>
+            <a class="nav-link ijo rounded-pill text-white fw-bold mx-2" href="#">Planner</a>
           </li>
         </ul>
       </div>
@@ -51,49 +51,52 @@
         </ul>
       </div>
   </nav>
-  <div class="container-fluid min-vh-100 lat-blkg px-4" width="100%">
-    <div class="row min-vh-100 align-items-center ps-5">
-      <div class="col-md-6 flex-column">
-        <h1 class="fw-bold col-6 text-wrap">Cook Smart, Waste Less</h1>
-        <h2 class="fw-bold">Smart Meal Planning for a Healthier Life</h2>
-        <p class="parag-homepage fw-bold">
-          Plan healthier meals based on your BMI, calorie needs, and dietary preferences.
-          NutriPlan helps you create personalized meal plans using BMI analysis,
-          nutrition data, and smart recommendations.
-        </p>
-        <div class="button d-flex">
-          <a href="#" class="align-items-center btn ijo text-white rounded-pill fw-bold me-4" width="33%">Calculate Your Plan</a>
-          <a href="#" class="align-items-center btn oren text-white rounded-pill fw-bold ms-4" width="33%">Explore Recipes</a>
-        </div>
-      </div>
-      <div class="container col-md-6">
-        <div class="row text-center">
-          <div class="col-md-2 position-relative">
-            <img src="img/brokoli.png" alt="" width="65px" class="brokoli">
-            <img src="img/Ellipse 3.png" alt="" width="50px" class="elip1">
-          </div>
-          <div class="col-md-8 position-relative">
-            <img src="img/tanaman.png" alt="Ini plate" width="300px" class="img-fluid plate">
-          </div>
-          <div class="col-md-2 position-relative">
-            <img src="img/wortel.png" alt="" width="60px" class="wortel">
-            <img src="img/Ellipse 1.png" alt="" width="50px" class="elip2">
-          </div>
-          <div class="col-md-6 position-relative">
-            <img src="img/serat.png" alt="" width="200px" class="serat">
-          </div>
-          <div class="col-md-6 position-relative">
-            <img src="img/protein.png" alt="" width="300px" class="protein">
-          </div>
-          <div class="col-md-12 position-relative wadah">
-            <img src="img/jagung.png" alt="" width="80px" class="jagung">
-            <img src="img/Ellipse 2.png" alt="" width="80px" class=" elip3">
+  <main>
+    <div class="container-fluid min-vh-100 lat-blkg px-4 konten" width="100%">
+      <div class="row min-vh-100 align-items-center ps-5">
+        <div class="col-md-6 flex-column">
+          <h1 class="fw-bold col-6 text-wrap">Cook Smart, Waste Less</h1>
+          <h2 class="fw-bold">Smart Meal Planning for a Healthier Life</h2>
+          <p class="parag-homepage fw-bold">
+            Plan healthier meals based on your BMI, calorie needs, and dietary preferences.
+            NutriPlan helps you create personalized meal plans using BMI analysis,
+            nutrition data, and smart recommendations.
+          </p>
+          <div class="button d-flex">
+            <a href="#" class="align-items-center btn ijo text-white rounded-pill fw-bold me-4" width="33%">Calculate Your Plan</a>
+            <a href="#" class="align-items-center btn oren text-white rounded-pill fw-bold ms-4" width="33%">Explore Recipes</a>
           </div>
         </div>
+        <div class="container col-md-6">
+          <div class="row text-center">
+            <div class="col-md-2 position-relative border">
+              <img src="img/brokoli.png" alt="" width="65px" class="img-fluid brokoli">
+              <img src="img/Ellipse 3.png" alt="" width="50px" class="elip1 img-fluid">
+            </div>
+            <div class="col-md-8 position-relative border">
+              <img src="img/tanaman.png" alt="Ini plate" width="350px" class="img-fluid plate">
+            </div>
+            <div class="col-md-2 position-relative border">
+              <img src="img/wortel.png" alt="" width="60px" class="wortel img-fluid">
+              <img src="img/Ellipse 1.png" alt="" width="50px" class="elip2 img-fluid">
+            </div>
+            <div class="col-md-6 position-relative border">
+              <img src="img/serat.png" alt="" width="250px" class="img-fluid">
+            </div>
+            <div class="col-md-6 position-relative border">
+              <img src="img/protein.png" alt="" width="300px" class="img-fluid">
+            </div>
+            <div class="col-md-12 position-relative wadah border">
+              <img src="img/jagung.png" alt="" width="80px" class="img-fluid jagung">
+              <img src="img/Ellipse 2.png" alt="" width="80px" class="img-fluid elip3">
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
 
-  </div>
+    </div>
+  </main>
+
   <!-- Bootstrap -->
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
 </body>

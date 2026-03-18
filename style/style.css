@@ -15,6 +15,9 @@ body {
 .navbar-brand {
   margin-left: 8vw;
 }
+.konten {
+  animation: fadeIn 0.3s ease-in;
+}
 .row {
   padding-top: 5rem;
 }
@@ -41,6 +44,7 @@ body {
 .oren {
   background-color: #ea5c2b;
   transition: all 0.3s ease;
+  
 }
 .oren:hover {
   background-color: #cd4c22;
@@ -93,7 +97,7 @@ h2 {
   top: 0;
 }
 .wadah {
-  height: 7.5rem;
+  min-height: 7.5rem;
 }
 .jagung {
   z-index: 2;
