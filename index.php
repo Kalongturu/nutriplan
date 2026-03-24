@@ -11,10 +11,11 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-transparent fixed-top py-3">
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-xl navbar-light bg-transparent fixed-top">
     <div class="container-fluid">
       <!-- Logo -->
-      <div class="col-2">
+      <div class="col-2 position-relative">
         <a class="navbar-brand" href="#">
           <img src="img/logo.png" alt="Logo NutriPlan" width="37px" height="37px">
           <span class="nutri">Nutri</span><span class="plan">Plan</span>
@@ -25,9 +26,9 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <!-- Elemen navbar -->
-      <div class="collapse navbar-collapse pe-3" id="navbarSupportedContent">
+      <div class="collapse navbar-collapse pe-3 resp" id="navbarSupportedContent">
         <div class="d-flex justify-content-center align-items-center flex-grow-1">
-          <ul class="navbar-nav mb-2 mb-lg-0">
+          <ul class="navbar-nav mb-2 mb-xl-0">
             <li class="nav-item tex">
               <a class="btn w-100 text-center nav-link ijo rounded-pill text-white fw-bold mx-2" aria-current="page" href="#">Home</a>
             </li>
@@ -44,9 +45,8 @@
               <a class="btn w-100 text-center nav-link ijo rounded-pill text-white fw-bold mx-2" href="#">Planner</a>
             </li>
           </ul>
-
         </div>
-        <ul class="navbar-nav mb-2 ms-auto mb-lg-0">
+        <ul class="navbar-nav mb-2 mb-xl-0">
           <li class="nav-item">
             <a class="btn text-center w-100 nav-link oren rounded-pill text-white fw-bold login" href="#">Log In/Sign Up</a>
           </li>
@@ -58,8 +58,9 @@
   <main>
     <!-- Isi konten -->
     <div class="container-fluid min-vh-100 lat-blkg px-4 konten" width="100%">
-      <div class="row min-vh-100 align-items-center ps-5">
-        <div class="col-lg-6 col-md-12 flex-column">
+      <div class="row min-vh-100 align-items-center">
+        <!-- Paragraf -->
+        <div class="col-lg-6 col-md-12 flex-column prg">
           <h1 class="fw-bold col-6 text-wrap">Cook Smart, Waste Less</h1>
           <h2 class="fw-bold">Smart Meal Planning for a Healthier Life</h2>
           <p class="parag-homepage fw-bold">
@@ -76,14 +77,14 @@
         <div class="container col-6">
           <div class="row text-center">
             <div class="col-md-2 d-none d-md-block position-relative">
-              <img src="img/brokoli.png" alt="" width="65px" class="img-fluid brokoli">
+              <img src="img/brokoli.png" alt="" width="70px" class="img-fluid brokoli">
               <img src="img/Ellipse 3.png" alt="" width="50px" class="elip1 img-fluid">
             </div>
             <div class="col-md-8 d-none d-md-block position-relative">
               <img src="img/tanaman.png" alt="Ini plate" width="350px" class="img-fluid plate">
             </div>
             <div class="col-md-2 d-none d-md-block position-relative">
-              <img src="img/wortel.png" alt="" width="60px" class="wortel img-fluid">
+              <img src="img/wortel.png" alt="" width="65px" class="wortel img-fluid">
               <img src="img/Ellipse 1.png" alt="" width="50px" class="elip2 img-fluid">
             </div>
             <div class="col-md-6 d-none d-md-block position-relative">
