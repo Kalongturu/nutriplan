@@ -26,7 +26,7 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <!-- Elemen navbar -->
-      <div class="collapse navbar-collapse pe-3 resp" id="navbarSupportedContent">
+      <div class="collapse navbar-collapse pe-3 py-3" id="navbarSupportedContent">
         <div class="d-flex justify-content-center align-items-center flex-grow-1">
           <ul class="navbar-nav mb-2 mb-xl-0">
             <li class="nav-item tex">
@@ -35,7 +35,7 @@
             <li class="nav-item">
               <a class="btn w-100 text-center nav-link oren rounded-pill text-white fw-bold mx-2" href="#">How It Works</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item border">
               <a class="btn w-100 text-center nav-link ijo rounded-pill text-white fw-bold mx-2" href="#">Recipes</a>
             </li>
             <li class="nav-item">
@@ -46,11 +46,14 @@
             </li>
           </ul>
         </div>
-        <ul class="navbar-nav mb-2 mb-xl-0">
-          <li class="nav-item">
-            <a class="btn text-center w-100 nav-link oren rounded-pill text-white fw-bold login" href="#">Log In/Sign Up</a>
-          </li>
-        </ul>
+        <div class="d-flex justify-content-center align-items-center flex-grow-1">
+          <ul class="navbar-nav mb-2 mb-xl-0">
+            <li class="nav-item flex-grow-1 border">
+              <a class="btn text-center nav-link oren rounded-pill text-white fw-bold mx-2" href="#">Log In/Sign Up</a>
+            </li>
+          </ul>
+        </div>
+
 
       </div>
     </div>
