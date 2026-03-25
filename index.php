@@ -13,9 +13,9 @@
 <body>
   <!-- Navbar -->
   <nav class="navbar navbar-expand-xl navbar-light fixed-top">
-    <div class="container-fluid">
+    <div class="container-fluid ps-0">
       <!-- Logo -->
-      <div class="d-flex flex-grow-2 position-relative">
+      <div class="d-flex flex-grow-1 position-relative">
         <a class="navbar-brand" href="#">
           <img src="img/logo.png" alt="Logo NutriPlan" width="37px" height="37px">
           <span class="nutri">Nutri</span><span class="plan">Plan</span>
@@ -26,30 +26,30 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <!-- Elemen navbar -->
-      <div class="collapse navbar-collapse py-xl-0 py-4" id="navbarSupportedContent">
+      <div class="collapse navbar-collapse py-xl-3 py-4" id="navbarSupportedContent">
         <div class="d-flex justify-content-center flex-grow-1">
           <ul class="navbar-nav mb-xl-0 align-items-center mb-3">
-            <li class="nav-item item">
-              <a class="btn w-100 me-xl-2 text-center nav-link ijo rounded-pill text-white fw-bold item" aria-current="page" href="index.php">Home</a>
+            <li class="nav-item">
+              <a class="me-xl-2 btn text-center nav-link ijo rounded-pill text-white fw-bold item" aria-current="page" href="#">Home</a>
             </li>
-            <li class="nav-item item">
-              <a class="btn w-100 mx-xl-2 text-center nav-link oren rounded-pill text-white fw-bold item" href="#">How It Works</a>
+            <li class="nav-item">
+              <a class="mx-xl-2 btn text-center nav-link oren rounded-pill text-white fw-bold item" href="#">How It Works</a>
             </li>
-            <li class="nav-item item">
-              <a class="btn w-100 mx-xl-2 text-center nav-link ijo rounded-pill text-white fw-bold item" href="#">Recipes</a>
+            <li class="nav-item">
+              <a class="mx-xl-2 btn text-center nav-link ijo rounded-pill text-white fw-bold item" href="#">Recipes</a>
             </li>
-            <li class="nav-item item">
-              <a class="btn w-100 mx-xl-2 text-center nav-link oren rounded-pill text-white fw-bold item" href="#">Callculator</a>
+            <li class="nav-item">
+              <a class="mx-xl-2 btn text-center nav-link oren rounded-pill text-white fw-bold item" href="#">Callculator</a>
             </li>
-            <li class="nav-item item">
-              <a class="btn w-100 mx-xl-2 text-center nav-link ijo rounded-pill text-white fw-bold item" href="#">Planner</a>
+            <li class="nav-item">
+              <a class="mx-xl-2 btn text-center nav-link ijo rounded-pill text-white fw-bold item" href="#">Planner</a>
             </li>
           </ul>
         </div>
-        <div class="d-flex justify-content-center flex-grow-2 me-xl-4">
+        <div class="d-flex justify-content-center flex-grow-0">
           <ul class="navbar-nav align-items-center mb-xl-0">
-            <li class="nav-item">
-              <a class="btn mx-xl-4 w-100 item text-center nav-link oren rounded-pill text-white fw-bold" href="#">Log In/Sign Up</a>
+            <li class="nav-item item">
+              <a class="btn text-center nav-link oren rounded-pill text-white px-5 fw-bold" href="#">Log In/Sign Up</a>
             </li>
           </ul>
         </div>
@@ -63,7 +63,7 @@
     <div class="container-fluid min-vh-100 lat-blkg px-4 konten" width="100%">
       <div class="row min-vh-100 align-items-center">
         <!-- Paragraf -->
-        <div class="col-lg-6 col-md-12 flex-column prg">
+        <div class="col-lg-6 col-md-12 prg">
           <h1 class="fw-bold col-6 text-wrap">Cook Smart, Waste Less</h1>
           <h2 class="fw-bold">Smart Meal Planning for a Healthier Life</h2>
           <p class="parag-homepage fw-bold">
@@ -73,8 +73,8 @@
           </p>
           <!-- Button main -->
           <div class="button col-lg-12 d-flex">
-            <a href="#" class="align-items-center btn ijo text-white rounded-pill fw-bold me-3" width="33%">Calculate Your Plan</a>
-            <a href="#" class="align-items-center btn oren text-white rounded-pill fw-bold ms-3" width="33%">Explore Recipes</a>
+            <a href="#" class="align-items-center btn ijo text-white rounded-pill fw-bold px-4 me-3" width="33%">Calculate Your Plan</a>
+            <a href="#" class="align-items-center btn oren text-white rounded-pill fw-bold px-4 ms-3" width="33%">Explore Recipes</a>
           </div>
         </div>
         <!-- Elemen gambar -->
@@ -103,6 +103,9 @@
             </div>
           </div>
         </div>
+      </div>
+      <div class="row min-vh-100 align-items-center">
+        <h1>Test</h1>
       </div>
     </div>
   </main>
