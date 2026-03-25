@@ -7,9 +7,6 @@
 :root {
   font-size: 16px;
 }
-.nv-bar {
-  position: sticky;
-}
 body {
   font-family: "SF Pro Display", sans-serif;
 }
@@ -24,29 +21,26 @@ body {
   #navbarSupportedContent {
     position: absolute;
     top: 5rem; 
-    left: 0;
-    width: 100%;
-    background-color: rgba(255, 255, 255, 0.6);
-  }
-  .navbar-collapse {
+    width: 100vw;
+    background-color: rgba(255, 255, 255, 1);
     z-index: 1000;
   }
   .navbar-collapse.show {
-   
     backdrop-filter: blur(24px);
     -webkit-backdrop-filter: blur(24px);
   }
   .prg {
     padding-right: 3vw;
   }
+  .item {
+    margin: 0 auto;
+    width: 18.75rem;
+  }
+}
+.navbar-collapse {
+  margin-right: 3vw;
+}
 
-}
-.nav-overlay {
-  position: fixed;
-  z-index: 999;
-  inset: 0;
-  background: rgb(0,0,0,0.2);
-}
 .prg {
   padding-left: 4vw;
 }

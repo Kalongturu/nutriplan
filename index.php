@@ -12,10 +12,10 @@
 
 <body>
   <!-- Navbar -->
-  <nav class="navbar navbar-expand-xl navbar-light bg-transparent fixed-top">
+  <nav class="navbar navbar-expand-xl navbar-light fixed-top">
     <div class="container-fluid">
       <!-- Logo -->
-      <div class="col-2 position-relative">
+      <div class="d-flex flex-grow-2 position-relative">
         <a class="navbar-brand" href="#">
           <img src="img/logo.png" alt="Logo NutriPlan" width="37px" height="37px">
           <span class="nutri">Nutri</span><span class="plan">Plan</span>
@@ -26,36 +26,37 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <!-- Elemen navbar -->
-      <div class="collapse navbar-collapse pe-3 py-3" id="navbarSupportedContent">
-        <div class="d-flex justify-content-center align-items-center flex-grow-1">
-          <ul class="navbar-nav mb-2 mb-xl-0">
-            <li class="nav-item tex">
-              <a class="btn w-100 text-center nav-link ijo rounded-pill text-white fw-bold mx-2" aria-current="page" href="#">Home</a>
+      <div class="collapse navbar-collapse py-xl-0 py-4" id="navbarSupportedContent">
+        <div class="d-flex justify-content-center flex-grow-1">
+          <ul class="navbar-nav mb-xl-0 align-items-center mb-3">
+            <li class="nav-item item">
+              <a class="btn w-100 me-xl-2 text-center nav-link ijo rounded-pill text-white fw-bold item" aria-current="page" href="index.php">Home</a>
             </li>
-            <li class="nav-item">
-              <a class="btn w-100 text-center nav-link oren rounded-pill text-white fw-bold mx-2" href="#">How It Works</a>
+            <li class="nav-item item">
+              <a class="btn w-100 mx-xl-2 text-center nav-link oren rounded-pill text-white fw-bold item" href="#">How It Works</a>
             </li>
-            <li class="nav-item">
-              <a class="btn w-100 text-center nav-link ijo rounded-pill text-white fw-bold mx-2" href="#">Recipes</a>
+            <li class="nav-item item">
+              <a class="btn w-100 mx-xl-2 text-center nav-link ijo rounded-pill text-white fw-bold item" href="#">Recipes</a>
             </li>
-            <li class="nav-item">
-              <a class="btn w-100 text-center nav-link oren rounded-pill text-white fw-bold mx-2" href="#">Callculator</a>
+            <li class="nav-item item">
+              <a class="btn w-100 mx-xl-2 text-center nav-link oren rounded-pill text-white fw-bold item" href="#">Callculator</a>
             </li>
-            <li class="nav-item">
-              <a class="btn w-100 text-center nav-link ijo rounded-pill text-white fw-bold mb-2 mx-2" href="#">Planner</a>
+            <li class="nav-item item">
+              <a class="btn w-100 mx-xl-2 text-center nav-link ijo rounded-pill text-white fw-bold item" href="#">Planner</a>
             </li>
           </ul>
         </div>
-        <div class="d-flex justify-content-center align-items-center flex-grow-1">
-          <ul class="navbar-nav mb-2 mb-xl-0">
+        <div class="d-flex justify-content-center flex-grow-2 me-xl-4">
+          <ul class="navbar-nav align-items-center mb-xl-0">
             <li class="nav-item">
-              <a class="btn w-100 text-center nav-link oren rounded-pill text-white fw-bold mx-2" href="#">Log In/Sign Up</a>
+              <a class="btn mx-xl-4 w-100 item text-center nav-link oren rounded-pill text-white fw-bold" href="#">Log In/Sign Up</a>
             </li>
           </ul>
         </div>
       </div>
-      <div class="nav-overlay collapse" data-bs-toggle="collapse" data-bs-target="#navbarNav"></div>
+     
     </div>
+    
   </nav>
   <main>
     <!-- Isi konten -->
@@ -70,7 +71,8 @@
             NutriPlan helps you create personalized meal plans using BMI analysis,
             nutrition data, and smart recommendations.
           </p>
-          <div class="button col-lg-12 border d-flex">
+          <!-- Button main -->
+          <div class="button col-lg-12 d-flex">
             <a href="#" class="align-items-center btn ijo text-white rounded-pill fw-bold me-3" width="33%">Calculate Your Plan</a>
             <a href="#" class="align-items-center btn oren text-white rounded-pill fw-bold ms-3" width="33%">Explore Recipes</a>
           </div>
@@ -102,7 +104,6 @@
           </div>
         </div>
       </div>
-
     </div>
   </main>
 
