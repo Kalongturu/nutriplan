@@ -35,27 +35,26 @@
             <li class="nav-item">
               <a class="btn w-100 text-center nav-link oren rounded-pill text-white fw-bold mx-2" href="#">How It Works</a>
             </li>
-            <li class="nav-item border">
+            <li class="nav-item">
               <a class="btn w-100 text-center nav-link ijo rounded-pill text-white fw-bold mx-2" href="#">Recipes</a>
             </li>
             <li class="nav-item">
               <a class="btn w-100 text-center nav-link oren rounded-pill text-white fw-bold mx-2" href="#">Callculator</a>
             </li>
             <li class="nav-item">
-              <a class="btn w-100 text-center nav-link ijo rounded-pill text-white fw-bold mx-2" href="#">Planner</a>
+              <a class="btn w-100 text-center nav-link ijo rounded-pill text-white fw-bold mb-2 mx-2" href="#">Planner</a>
             </li>
           </ul>
         </div>
         <div class="d-flex justify-content-center align-items-center flex-grow-1">
           <ul class="navbar-nav mb-2 mb-xl-0">
-            <li class="nav-item flex-grow-1 border">
-              <a class="btn text-center nav-link oren rounded-pill text-white fw-bold mx-2" href="#">Log In/Sign Up</a>
+            <li class="nav-item">
+              <a class="btn w-100 text-center nav-link oren rounded-pill text-white fw-bold mx-2" href="#">Log In/Sign Up</a>
             </li>
           </ul>
         </div>
-
-
       </div>
+      <div class="nav-overlay collapse" data-bs-toggle="collapse" data-bs-target="#navbarNav"></div>
     </div>
   </nav>
   <main>
@@ -71,7 +70,7 @@
             NutriPlan helps you create personalized meal plans using BMI analysis,
             nutrition data, and smart recommendations.
           </p>
-          <div class="button col-12 d-flex">
+          <div class="button col-lg-12 border d-flex">
             <a href="#" class="align-items-center btn ijo text-white rounded-pill fw-bold me-3" width="33%">Calculate Your Plan</a>
             <a href="#" class="align-items-center btn oren text-white rounded-pill fw-bold ms-3" width="33%">Explore Recipes</a>
           </div>
@@ -79,24 +78,24 @@
         <!-- Elemen gambar -->
         <div class="container col-6">
           <div class="row text-center">
-            <div class="col-md-2 d-none d-md-block position-relative">
+            <div class="col-md-2 d-none d-lg-block position-relative">
               <img src="img/brokoli.png" alt="" width="70px" class="img-fluid brokoli">
               <img src="img/Ellipse 3.png" alt="" width="50px" class="elip1 img-fluid">
             </div>
-            <div class="col-md-8 d-none d-md-block position-relative">
+            <div class="col-md-8 d-none d-lg-block position-relative">
               <img src="img/tanaman.png" alt="Ini plate" width="350px" class="img-fluid plate">
             </div>
-            <div class="col-md-2 d-none d-md-block position-relative">
+            <div class="col-md-2 d-none d-lg-block position-relative">
               <img src="img/wortel.png" alt="" width="65px" class="wortel img-fluid">
               <img src="img/Ellipse 1.png" alt="" width="50px" class="elip2 img-fluid">
             </div>
-            <div class="col-md-6 d-none d-md-block position-relative">
+            <div class="col-md-6 d-none d-lg-block position-relative">
               <img src="img/serat.png" alt="" width="250px" class="img-fluid">
             </div>
-            <div class="col-md-6 d-none d-md-block position-relative ">
+            <div class="col-md-6 d-none d-lg-block position-relative ">
               <img src="img/protein.png" alt="" width="300px" class="img-fluid">
             </div>
-            <div class="col-md-12 d-none d-md-block position-relative wadah" width="80px">
+            <div class="col-md-12 d-none d-lg-block position-relative wadah" width="80px">
               <img src="img/jagung.png" alt="" width="80px" class="img-fluid jagung">
               <img src="img/Ellipse 2.png" alt="" width="80px" class="img-fluid elip3">
             </div>
@@ -109,7 +108,8 @@
 
   <!-- Bootstrap -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-
+  <!-- Javascript -->
+  <script src="script/script.js" defer></script>
 </body>
 
 </html>
