@@ -30,7 +30,7 @@
         <div class="d-flex justify-content-center flex-grow-1">
           <ul class="navbar-nav mb-xl-0 align-items-center mb-3">
             <li class="nav-item">
-              <a class="me-xl-2 btn text-center nav-link ijo rounded-pill text-white fw-bold item" aria-current="page" href="#">Home</a>
+              <a class="me-xl-2 btn text-center nav-link ijo rounded-pill text-white fw-bold item" aria-current="page" data-nutri="Index" href="#">Home</a>
             </li>
             <li class="nav-item">
               <a class="mx-xl-2 btn text-center nav-link oren rounded-pill text-white fw-bold item" href="#">How It Works</a>
@@ -54,9 +54,9 @@
           </ul>
         </div>
       </div>
-     
+
     </div>
-    
+
   </nav>
   <main>
     <!-- Isi konten -->
@@ -64,8 +64,8 @@
       <div class="row min-vh-100 align-items-center">
         <!-- Paragraf -->
         <div class="col-lg-6 col-md-12 prg">
-          <h1 class="fw-bold col-6 text-wrap">Cook Smart, Waste Less</h1>
-          <h2 class="fw-bold">Smart Meal Planning for a Healthier Life</h2>
+          <h1 class="pg1-h1 fw-bold col-6 text-wrap">Cook Smart, Waste Less</h1>
+          <h2 class="pg1-h2 fw-bold">Smart Meal Planning for a Healthier Life</h2>
           <p class="parag-homepage fw-bold">
             Plan healthier meals based on your BMI, calorie needs, and dietary preferences.
             NutriPlan helps you create personalized meal plans using BMI analysis,
@@ -81,31 +81,29 @@
         <div class="container col-6">
           <div class="row text-center">
             <div class="col-md-2 d-none d-lg-block position-relative">
-              <img src="img/brokoli.png" alt="" width="70px" class="img-fluid brokoli">
-              <img src="img/Ellipse 3.png" alt="" width="50px" class="elip1 img-fluid">
+              <img src="img/brokoli.png" alt="" class="img-fluid brokoli">
+              <img src="img/Ellipse 3.png" alt="" class="elip1 img-fluid">
             </div>
-            <div class="col-md-8 d-none d-lg-block position-relative">
-              <img src="img/tanaman.png" alt="Ini plate" width="350px" class="img-fluid plate">
+            <div class="col-md-7 d-none position-relative d-lg-block">
+              <img src="img/tanaman.png" alt="Ini plate" class="img-fluid plate">
             </div>
-            <div class="col-md-2 d-none d-lg-block position-relative">
-              <img src="img/wortel.png" alt="" width="65px" class="wortel img-fluid">
-              <img src="img/Ellipse 1.png" alt="" width="50px" class="elip2 img-fluid">
+            <div class="col-md-2 d-none d-lg-block position-relative wadah">
+              <img src="img/wortel.png" alt="" class="wortel img-fluid">
+              <img src="img/Ellipse 1.png" alt="" class="elip2 img-fluid">
             </div>
-            <div class="col-md-6 d-none d-lg-block position-relative">
-              <img src="img/serat.png" alt="" width="250px" class="img-fluid">
+            <div class="col-md-6 d-none d-lg-block position-relative wadah">
+              <img src="img/protein.png" alt="" class="img-fluid protein">
+              <img src="img/jagung.png" alt="" class="img-fluid jagung">
+              <img src="img/Ellipse 2.png" alt="" class="img-fluid elip3">
             </div>
-            <div class="col-md-6 d-none d-lg-block position-relative ">
-              <img src="img/protein.png" alt="" width="300px" class="img-fluid">
-            </div>
-            <div class="col-md-12 d-none d-lg-block position-relative wadah" width="80px">
-              <img src="img/jagung.png" alt="" width="80px" class="img-fluid jagung">
-              <img src="img/Ellipse 2.png" alt="" width="80px" class="img-fluid elip3">
+            <div class="col-md-6 d-none d-lg-block position-relative wadah">
+              <img src="img/serat.png" alt="" class="img-fluid serat">
             </div>
           </div>
         </div>
       </div>
-      <div class="row min-vh-100 align-items-center">
-        <h1>Test</h1>
+      <div class="row align-items-center">
+        <h1 class="pg2-h1 fw-bold">How NutriPlan Works</h1>
       </div>
     </div>
   </main>

@@ -96,11 +96,20 @@ body {
   font-size: 1rem;
 }
 
-h1 {
+.pg1-h1 {
+  color: #ffcc00;
+  font-size: 3.5rem;
+}
+.pg1-h2 {
   color: #ffcc00;
 }
-h2 {
-  color: #ffcc00;
+.pg2-h1 {
+  text-align: center;
+  background: linear-gradient(90deg, #FC0 0%, #FF7F3F 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 3.5rem;
 }
 .parag-homepage {
   color: #ea5c2b;
@@ -112,45 +121,64 @@ h2 {
   z-index: 2;
   position: absolute;
   top: 0;
-  left: 0;
+  right: 0;
   transform: rotate(-12.98deg);
+  width: 80px;
 }
 .elip1 {
   z-index: 1;
   top: 8%;
-  left: 10%;
+  right: 4%;
   position: absolute;
+  width: 65px;
 }
 .plate {
   top: 0;
+  position: absolute;
+  width: 350px;
+  left: 0;
 }
 .wortel {
   position: absolute;
   z-index: 2;
-  bottom: 3%;
-  right: 0;
+  bottom: 2%;
+  left: 13%;
+  width: 80px;
 }
 .elip2 {
   position: absolute;
   z-index: 1;
   bottom: 0;
-  right: 24%;
+  left: 0;
+  width: 60px;
+}
+.protein {
+  width: 250px;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 .serat {
+  width: 320px;
+  position: absolute;
+  left: 0;
   top: 0;
 }
 .wadah {
-  min-height: 7.5rem;
+  min-height: 350px;
+  max-height: 350px;
 }
 .jagung {
-  z-index: 2;
   position: absolute;
-  left: 40%;
-  top: 0;
+  z-index: 2;
+  right: 0;
+  bottom: 8%;
+  width: 90px;
 }
 .elip3 {
   position: absolute;
   z-index: 1;
-  left: 40%;
-  top: 15%;
+  bottom: 0;
+  right: 0;
+  width: 90px;
 }
