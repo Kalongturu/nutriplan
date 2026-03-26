@@ -62,7 +62,7 @@
       <div class="row min-vh-100 align-items-center">
         <!-- Paragraf -->
         <div class="col-lg-6 col-md-12 prg">
-          <h1 class="pg1-h1 fw-bold col-xl-6 col-8 border text-wrap">Cook Smart, Waste Less</h1>
+          <h1 class="pg1-h1 fw-bold col-xl-6 col-8 text-wrap">Cook Smart, Waste Less</h1>
           <h2 class="pg1-h2 fw-bold">Smart Meal Planning for a Healthier Life</h2>
           <p class="parag-homepage fw-bold">
             Plan healthier meals based on your BMI, calorie needs, and dietary preferences.
