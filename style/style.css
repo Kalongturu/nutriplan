@@ -170,16 +170,16 @@ h2 {
   width: 90px;
 }
 .card {
-  width: 12rem;
+  width: 13rem;
   height: 15rem;
   background: #f4e8b8;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
   border-radius: 10px;
 }
 .card-1 {
-  min-width: 18rem;
+  width: 18rem;
   min-height: 12rem;
-  background: #f4e8b8;
+  background: #f0ffdf;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
   border-radius: 10px;
 }
@@ -206,6 +206,18 @@ h2 {
   background: #ea5c2b;
   padding: 0 0.5rem;
   border-radius: 200px;
+}
+.ktg-ijo {
+  background: #95cd41;
+  font-size: 0.625rem;
+  padding: 0 0.5rem;
+  border-radius: 5px;
+}
+.ktg-oren {
+  background: #ea5c2b;
+  font-size: 0.625rem;
+  padding: 0 0.5rem;
+  border-radius: 5px;
 }
 /* Media breakpoint*/
 
