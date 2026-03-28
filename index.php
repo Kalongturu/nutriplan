@@ -62,7 +62,7 @@
       <div class="row min-vh-100 align-items-center mb-5">
         <!-- Paragraf -->
         <div class="col-lg-6 col-md-12 prg">
-          <h1 class="pg1-h1 fw-bold col-xl-6 col-8 text-wrap">Cook Smart, Waste Less</h1>
+          <h1 class="pg1-h1 fw-bold col-xl-6 col-12 text-wrap">Cook Smart, Waste Less</h1>
           <h2 class="fw-bold">Smart Meal Planning for a Healthier Life</h2>
           <p class="parag-homepage fw-bold">
             Plan healthier meals based on your BMI, calorie needs, and dietary preferences.
@@ -100,33 +100,90 @@
           </div>
         </div>
       </div>
-      <div class="row min-vh-100 border">
-        <div class="container border col-12">
+      <div class="row min-vh-100">
+        <div class="container col-12">
           <h1 class="pg2-h1 fw-bold">How NutriPlan Works</h1>
           <h2 class="text-center">From body data to personalized meals - everything is designed to help you smarter and live healtier</h2>
         </div>
-        <div class="container mt-5 col-12 d-flex flex-wrap justify-content-evenly border">
-          <div class="card m-3 d-flex align-items-center justify-content-center">
-            <p><span class="Num me-3">01</span><span class="Txt">Create Account</span></p>
-          </div>
-          <div class="card m-3 align-items-center justify-content-center">
-            <p><span class="Num me-3">01</span><span class="Txt">Create Account</span></p>
-          </div>
-          <div class="card m-3 align-items-center justify-content-center">
-            <p><span class="Num me-3">01</span><span class="Txt">Create Account</span></p>
-          </div>
-          <div class="card m-3 align-items-center justify-content-center">
-            <p><span class="Num me-3">01</span><span class="Txt">Create Account</span></p>
-          </div>
-          <div class="card m-3 align-items-center justify-content-center">
-            <p><span class="Num me-3">01</span><span class="Txt">Create Account</span></p>
-          </div>
-          <div class="container">
-            <div class="d-flex justify-content-center border my-5">
-              <a href="#" class="btn ijo text-white rounded-pill fw-bold px-4 me-3" width="33%">Calculate Your Plan</a>
-              <a href="#" class="btn oren text-white rounded-pill fw-bold px-4 ms-3" width="33%">Explore Recipes</a>
+        <div class="container col-12 d-flex flex-wrap justify-content-evenly">
+          <div class="card mt-5 mx-3 px-2 border border-5">
+            <div class="row">
+              <div class="col">
+                <h4 class="d-flex align-items-center">
+                  <span class="Num-ijo align-self-center">01</span>
+                  <span class="txt-1 text-center">Create Account</span>
+                </h4>
+              </div>
+              <div class="col">
+                <p class="ps-2 p-card mb-0 text-start">Sign Up to start your personalized nutrition journey with NutriPlan </p>
+              </div>
             </div>
           </div>
+          <div class="card mt-5 mx-3 px-2 border border-5">
+            <div class="row">
+              <div class="col">
+                <h4 class="d-flex align-items-center">
+                  <span class="Num-oren align-self-center">02</span>
+                  <span class="txt-1 text-center">Enter Body Data</span>
+                </h4>
+              </div>
+              <div class="col">
+                <p class="ps-2 p-card mb-0 text-start">Add your height, weight, age, and gender for accurate analysis</p>
+              </div>
+            </div>
+          </div>
+          <div class="card mt-5 mx-3 px-2 border border-5">
+            <div class="row">
+              <div class="col">
+                <h4 class="d-flex align-items-center">
+                  <span class="Num-ijo align-self-center">03</span>
+                  <span class="txt-1 text-center">BMI Analysis</span>
+                </h4>
+              </div>
+              <div class="col">
+                <p class="ps-2 p-card mb-0 text-start">Get instant BMI results and understand your body condition better</p>
+              </div>
+            </div>
+          </div>
+          <div class="card mt-5 mx-3 px-2 border border-5">
+            <div class="row">
+              <div class="col">
+                <h4 class="d-flex align-items-center">
+                  <span class="Num-oren align-self-center">04</span>
+                  <span class="txt-1 text-center">Generate Meal Plan</span>
+                </h4>
+              </div>
+              <div class="col border">
+                <p class="ps-2 p-card mb-0 text-start">Recieve meal recommendations tailored to your body need and goals</p>
+              </div>
+            </div>
+          </div>
+          <div class="card mt-5 mx-3 px-2 border border-5">
+            <div class="row">
+              <div class="col">
+                <h4 class="d-flex align-items-center">
+                  <span class="Num-ijo align-self-center">05</span>
+                  <span class="txt-1 text-center">Explore Recipes</span>
+                </h4>
+              </div>
+              <div class="col border">
+                <p class="ps-2 p-card mb-0 text-start">Browse healthy recipes and discover nutritions meals you will enjoy</p>
+              </div>
+            </div>
+          </div>
+          <div class="container px-0 d-flex justify-content-center">
+            <div class="col-12 col-md-10 col-lg-8 col-xl-6 justify-content-center d-flex">
+              <div class="d-flex col-6 justify-content-center">
+                <a href="#" class="btn ijo text-white rounded-pill fw-bold my-5 px-4" width="33%">Calculate Your Plan</a>
+              </div>
+              <div class="col-6 d-flex justify-content-center">
+                <a href="#" class="btn oren text-white rounded-pill my-5 fw-bold px-4" width="33%">Explore Recipes</a>
+              </div>
+            </div>
+          </div>
+
+
+
 
         </div>
       </div>
@@ -141,21 +198,21 @@
           </div>
 
           <div class="container mt-5 col-12 d-flex flex-wrap justify-content-evenly border">
-            <div class="card-1 m-3 d-flex align-items-center justify-content-center">
-              <p><span class="Num me-3">01</span><span class="Txt">Create Account</span></p>
+            <div class="card-1 p-3 m-3 d-flex align-items-center justify-content-center">
+              <p><span class="Num me-3">01</span><span class="txt">Create Account</span></p>
             </div>
-            <div class="card-1 m-3 d-flex align-items-center justify-content-center">
-              <p><span class="Num me-3">01</span><span class="Txt">Create Account</span></p>
+            <div class="card-1 p-3 m-3 d-flex align-items-center justify-content-center">
+              <p><span class="Num me-3">01</span><span class="txt">Create Account</span></p>
             </div>
-            <div class="card-1 m-3 d-flex align-items-center justify-content-center">
-              <p><span class="Num me-3">01</span><span class="Txt">Create Account</span></p>
+            <div class="card-1 p-3 m-3 d-flex align-items-center justify-content-center">
+              <p><span class="Num me-3">01</span><span class="txt">Create Account</span></p>
             </div>
           </div>
         </div>
       </div>
       <div class="row min-vh-100 prg">
         <div class="col-7 border">
-          <div class="col-6">
+          <div class="col-md-6 col-12">
             <h1 class="pg3-h1 text-start fw-bold">Calculate Your Health Need</h1>
           </div>
           <h2 class="pg3-h2 text-start">Use NutriPlan’s calculator to estimate your BMI, calori needs, and personalized nutrition targets based on your body data and goals</h2>
