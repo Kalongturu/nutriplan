@@ -59,18 +59,18 @@
   <main>
     <!-- Isi konten -->
     <div class="container-fluid min-vh-100 lat-blkg px-4 konten" width="100%">
-      <div class="row min-vh-100 align-items-center">
+      <div class="row min-vh-100 align-items-center mb-5">
         <!-- Paragraf -->
         <div class="col-lg-6 col-md-12 prg">
           <h1 class="pg1-h1 fw-bold col-xl-6 col-8 text-wrap">Cook Smart, Waste Less</h1>
-          <h2 class="pg1-h2 fw-bold">Smart Meal Planning for a Healthier Life</h2>
+          <h2 class="fw-bold">Smart Meal Planning for a Healthier Life</h2>
           <p class="parag-homepage fw-bold">
             Plan healthier meals based on your BMI, calorie needs, and dietary preferences.
             NutriPlan helps you create personalized meal plans using BMI analysis,
             nutrition data, and smart recommendations.
           </p>
           <!-- Button main -->
-          <div class="button col-lg-12 d-flex">
+          <div class="col-lg-12 d-flex">
             <a href="#" class="align-items-center btn ijo text-white rounded-pill fw-bold px-4 me-3" width="33%">Calculate Your Plan</a>
             <a href="#" class="align-items-center btn oren text-white rounded-pill fw-bold px-4 ms-3" width="33%">Explore Recipes</a>
           </div>
@@ -100,9 +100,83 @@
           </div>
         </div>
       </div>
-      <div class="row align-items-center">
-        <h1 class="pg2-h1 fw-bold">How NutriPlan Works</h1>
+      <div class="row min-vh-100 border">
+        <div class="container border col-12">
+          <h1 class="pg2-h1 fw-bold">How NutriPlan Works</h1>
+          <h2 class="text-center">From body data to personalized meals - everything is designed to help you smarter and live healtier</h2>
+        </div>
+        <div class="container mt-5 col-12 d-flex flex-wrap justify-content-evenly border">
+          <div class="card m-3 d-flex align-items-center justify-content-center">
+            <p><span class="Num me-3">01</span><span class="Txt">Create Account</span></p>
+          </div>
+          <div class="card m-3 align-items-center justify-content-center">
+            <p><span class="Num me-3">01</span><span class="Txt">Create Account</span></p>
+          </div>
+          <div class="card m-3 align-items-center justify-content-center">
+            <p><span class="Num me-3">01</span><span class="Txt">Create Account</span></p>
+          </div>
+          <div class="card m-3 align-items-center justify-content-center">
+            <p><span class="Num me-3">01</span><span class="Txt">Create Account</span></p>
+          </div>
+          <div class="card m-3 align-items-center justify-content-center">
+            <p><span class="Num me-3">01</span><span class="Txt">Create Account</span></p>
+          </div>
+          <div class="container">
+            <div class="d-flex justify-content-center border my-5">
+              <a href="#" class="btn ijo text-white rounded-pill fw-bold px-4 me-3" width="33%">Calculate Your Plan</a>
+              <a href="#" class="btn oren text-white rounded-pill fw-bold px-4 ms-3" width="33%">Explore Recipes</a>
+            </div>
+          </div>
+
+        </div>
       </div>
+      <div class="row min-vh-100">
+        <div class="container col-12 border px-5">
+          <h1 class="pg3-h1 fw-bold">Explore Healthy Recipes</h1>
+          <h2 class="pg3-h2">Discover nutritions and delicious recipes tailored to your lifestyle. From quick breakfast to balanced dinners, NutriPlan helps you find meals you’ll actually enjoy</h2>
+          <div class="container">
+            <div class="d-flex justify-content-center my-4">
+              <a href="#" class="btn oren text-white rounded-pill fw-bold px-4 ms-3" width="33%">Explore Recipes</a>
+            </div>
+          </div>
+
+          <div class="container mt-5 col-12 d-flex flex-wrap justify-content-evenly border">
+            <div class="card-1 m-3 d-flex align-items-center justify-content-center">
+              <p><span class="Num me-3">01</span><span class="Txt">Create Account</span></p>
+            </div>
+            <div class="card-1 m-3 d-flex align-items-center justify-content-center">
+              <p><span class="Num me-3">01</span><span class="Txt">Create Account</span></p>
+            </div>
+            <div class="card-1 m-3 d-flex align-items-center justify-content-center">
+              <p><span class="Num me-3">01</span><span class="Txt">Create Account</span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row min-vh-100 prg">
+        <div class="col-7 border">
+          <div class="col-6">
+            <h1 class="pg3-h1 text-start fw-bold">Calculate Your Health Need</h1>
+          </div>
+          <h2 class="pg3-h2 text-start">Use NutriPlan’s calculator to estimate your BMI, calori needs, and personalized nutrition targets based on your body data and goals</h2>
+          <a href="#" class="btn ijo text-white rounded-pill fw-bold mt-4" width="33%">Try Calculator</a>
+        </div>
+        <div class="col-5 border"></div>
+      </div>
+      <div class="row min-vh-100 plg">
+        <div class="col-6 border"></div>
+        <div class="col-6 border">
+          <h1 class="pg3-h1 text-end fw-bold">Stay On Track With Your Meals</h1>
+          <h2 class="pg3-h2 text-end">NutriPlan makes it easy to plan and personalized your meals for the day and the week. Stay organized, track your nutrition, and achieve your health goals!</h2>
+          <div class="d-flex justify-content-end mt-4">
+            <a href="#" class="btn oren text-white rounded-pill fw-bold mt-4" width="33%">Start Planning</a>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+    </div>
     </div>
   </main>
 
